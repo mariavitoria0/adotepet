@@ -1,10 +1,8 @@
 import 'package:adotepet/cadastro.dart';
-import 'package:adotepet/cadastroAnimal.dart';
-import 'package:adotepet/login.dart';
 
 import 'package:flutter/material.dart';
 
-main() => runApp(MaterialApp(home: Login()));
+main() => runApp(MaterialApp(home: Cadastro()));
 
 class AdoteApp extends StatelessWidget {
   @override
